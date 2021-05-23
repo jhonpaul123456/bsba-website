@@ -7,6 +7,9 @@
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth; 
 }
+body {
+    background: lightblue;
+}
 
 .dark-mode {
     filter: invert(1) hue-rotate(180deg);
@@ -28,7 +31,7 @@ nav {
     align-items: center;
     background: transparent;
     color: white;
-    background: red;
+    background: rgb(156, 180, 194);
 }
 
 
@@ -908,7 +911,7 @@ footer {
 }
 
 .third-section-info-text-content p {
-    font-size: 1rem;
+    font-size: 1.7rem;
     font-weight: 500;
     text-align: left;
 }
