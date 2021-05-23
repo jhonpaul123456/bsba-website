@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- FONTAWESOME CDN -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        
+        <div class="toggle-arrow" onclick="showNav()">
+            <i class="fas fa-arrow-circle-down" data-toggle="tooltip" data-placement="left" title="Show Nav Bar"></i>
+        </div>
+        <div class="nav-logo">
+            <div class="logo">
+                <i class="fab fa-react"></i>
+            </div>
+            <div class="name">
+                <h1>HCI 102</h1>
+            </div>
+        </div>
+
+        <div class="nav-items">
+
+            <div class="hide" onclick="hideNav()">
+                <i class="fas fa-arrow-circle-up" data-toggle="tooltip" data-placement="left" title="Hide Nav Bar"></i>
+            </div>
+           
+            <li><a href="about.html">Home</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+     
+
+        </div>
+      
+
+        <div class="search-togg">
+            <i class="fas fa-search" data-toggle="tooltip" data-placement="left" title="Search"></i>
+        </div>
+
+        <div class="cancel-togg">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <form action="#" class="show-form">
+            <input placeholder="search" type="search" required >
+            <button type="submit" class="fas fa-search" id="s-button" data-toggle="tooltip" data-placement="left" title="Search"></button>
+            <div class="xSearch">
+                <i class="fas fa-times" data-toggle="tooltip" data-placement="left" title="Hide Search"></i>
+            </div>
+            
+        </form>
+
+
+    </nav>
+
+    <div class="img-overlay-container inverted">
+
+        <div class="overlay3">
+            
+            <div class="contact-header">
+
+                <h1>
+                    Get in touch
+                </h1>
+
+                <p>Want to get in touch? We`d love to hear from you. Here`s how you can reach us...</p>
+             
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    
+    <div class="contact-cards-wrapper hero-container">
+
+
+        <div class="contact-cards">
+
+            <div class="contact-card">
+
+                <div class="contact-icon">
+
+                    <i class="fas fa-phone"></i>
+
+                </div>
+
+                <div class="contact-title">
+                    <h2>Contact to our latest Hotline</h2>
+                    
+                </div>
+
+                <div class="contact-parag">
+                    <p>Interested in HCI Subject? Just pick up the phone to chat with our awesome team</p>
+                </div>
+
+                <div class="contact-number">
+                    <h5>+232-456-623</h5>
+                </div>
+               
+                <div class="contact-extend-info">
+                    <h5>View all global numbers <span class="fas fa-chevron-down"></span></h5>
+                </div>
+
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-icon">
+
+                    <i class="fab fa-facebook-messenger"></i>
+
+                </div>
+                <div class="contact-title">
+                    <h2>Contact Customer Support</h2>
+                </div>
+
+                <div class="contact-parag">
+                    <p>Sometimes you need a little help from your classmates. Or our support reply. Don`t worry we are here for you.</p>
+                </div>
+
+                <div class="contact-button">
+                    <button>Contact Us</button>
+                </div>
+
+              
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="container hero-container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header text-white bg-contact"><i class="fa fa-envelope"></i> Contact us.
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="6" required></textarea>
+                            </div>
+                            <div class="mx-auto">
+                            <button type="submit" class="btn bg-contact text-white">Submit</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4">
+                <div class="card bg-light mb-3">
+                    <div class="card-header bg-contact text-white text-uppercase"><i class="fas fa-pager"></i> Extra pages</div>
+                    <div class="card-body">
+
+                     <h1>Pages</h1>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="about.html">About</a></li>
+                     <li><a href="contact.html">Contact</a></li>
+                     <h1>Social Media</h1>
+                     <li><a href="#">Facebook</a></li>
+                     <li><a href="#">twitter</a></li>
+                     <li><a href="#">Instagram</a></li>
+    
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-title">
+                <h1>Human Computer Interaction</h1>
+            </div>
+    
+            <div class="footer-links">
+    
+            <div class="footer-list-links">
+                <ul>
+                    <div class="footer-links-title"><strong><li><a href="#">LINKS</a></li></strong></div>
+                  
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Goals</a></li>
+                </ul>
+            </div>
+            <div class="footer-list-links">
+                <ul>
+                    <div class="footer-links-title"><strong><li><a href="#">OVERVIEW</a></li></strong></div>
+                    <li><a href="#">Why HCI?</a></li>
+                    <li><a href="#">Goals</a></li>
+                    <li><a href="#">Information</a></li>
+                    <li><a href="#" onclick="showAlert()">Graph</a></li>
+                </ul>
+            </div>
+            <div class="footer-list-links">
+                <ul>
+                    <div class="footer-links-title"><strong><li><a href="#">GIVE US COMMENT</a></li></strong></div>
+                    <li><a href="#">Email Here</a></li>
+                    <li><a href="#">Messages</a></li>
+                    <li><a href="#" onclick="showAlert()">Lucky</a></li>
+                    <li><a href="#" onclick="showAlert()">Good</a></li>
+                </ul>
+            </div>
+            <div class="footer-list-links">
+                <ul>
+                    <div class="footer-links-title"><strong><li><a href="#">PURPOSE</a></li></strong></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, harum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, harum?</p>
+                 
+                </ul>
+            </div>
+                
+            </div>
+    
+            <div class="social-media-footer">
+                <h4>Social Media</h4>
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-twitter-square"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-github-square"></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        document.onkeypress = function (e) {
+        e = e || window.event;
+    
+        if(e.keyCode === 13) {
+            document.documentElement.classList.add("dark-mode");
+            document.querySelectorAll(".inverted").forEach((result) => {
+                result.classList.toggle('invert');
+            });
+        }
+        }
+    </script>
+</body>
+</html>
